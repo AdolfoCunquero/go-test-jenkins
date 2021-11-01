@@ -26,7 +26,7 @@ func TestSum2(t *testing.T) {
 		t.Errorf("Sum was incorrect, got: %d, want: %d.", total, 10)
 	}
 
-	total2 := Sum(5, 15)
+	total2 := Sum(5, 5)
 	if total2 != 10 {
 		t.Errorf("Sum was incorrect, got: %d, want: %d.", total2, 10)
 	}
